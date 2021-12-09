@@ -1,0 +1,260 @@
+body{
+    background-color: rgb(15, 15, 15);
+}
+
+/*Logo et texte de titre*/
+
+.logo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255)
+}
+
+.logo p{
+    color: rgb(255,17,170);
+}
+
+
+
+
+
+/*Navigation*/
+
+.nav ul{
+    list-style-type: none;
+    background-color: rgb(30, 27, 32);
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav li{
+    float:left;
+}
+
+.nav li a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+.nav li a:hover{
+    background-color:rgb(255,17,170);
+}
+
+.active{
+    background-color:rgb(255,17,170);
+}
+
+.nav{
+    
+    top:0;
+}
+
+/*Page de presentation*/
+
+p{
+    color:rgb(191,178,198);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    color:rgb(255,255,255);
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#PRESENTATION{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.tete{
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(255,255,255);
+    text-align: center;
+    font-size: 6px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fin{
+    background-color: rgb(30, 27, 32);
+}
+
+.fin p a{
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+
+}
+
+.tableau{
+    color:rgb(255,255,255);
+    text-align: center;
+}
+
+.feuille a{
+    text-decoration: rgb(191,178,198);
+    color: rgb(191,178,198);
+}
+
+.feuille h2{
+    color:rgb(191,178,198);
+}
+
+
+/*Carrousel de photos*/
+
+.images{
+    display: flex;
+    animation-duration: 40s;
+    animation-name: Photo;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Photo {
+    0% {
+        transform: translateX(0);
+    }
+    12.5% {
+        transform: translateX(-100%);
+    }
+    25% {
+        transform: translateX(-200%);
+    }
+    37.5% {
+        transform: translateX(-300%);
+    }
+    50% {
+        transform: translateX(-400%);
+    }
+    62.5% {
+        transform: translateX(-500%);
+    }
+    75% {
+        transform: translateX(-600%);
+    }
+    87.5% {
+        transform: translateX(-700%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+
+}
+
+#legende {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+
+#article {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(191,178,198);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-around;
+    padding: 5%;
+
+
+}
+
+.gauche {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+#article table th{
+    background-color: rgb(255,17,170);
+    color:rgb(15, 15, 15);
+    height:50px;
+    text-align: center;
+    padding: 5px;
+}
+
+#article table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#article table td{
+    height:30px;
+    text-align: center;
+    border: 3px solid rgb(15, 15, 15);
+
+}
+
+#article .gauche table {
+    width: 100%;
+}
+
+.InC {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(191,178,198);
+}
+
+.social{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.social .twitter {
+    width: 50%;
+}
+
+.lien{
+    display: flex;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+    
+}
+
+.cases{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    padding: 5%;
+
+}
+
+.cases_2{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.cases_3{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.cases_4{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    padding: 5%;
+}
